@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Setup">
+      <UniqueIdentifier>{22145f93-2d43-4a37-afd7-00c8497e1e48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{30298ad5-0560-4403-8717-c4b6eadb29e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{430d5d10-e182-48e8-b4b8-6a0fc2cebd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setup\Hooks">
+      <UniqueIdentifier>{2424d30e-66d7-4c3b-ba16-728ef0d9a337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Util">
+      <UniqueIdentifier>{61c80985-7b73-4733-9d66-9da50278be8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\SDK">
+      <UniqueIdentifier>{3da727f0-243d-4cee-a1e4-2b8bbd0df761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Util\External">
+      <UniqueIdentifier>{7df1e690-03e6-41eb-ac9c-946398a5e3b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Setup\Entry.cpp">
+      <Filter>Setup</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Misc\Address.h">
+      <Filter>Misc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Hash.h">
+      <Filter>Misc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Modules.h">
+      <Filter>Misc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\NT.h">
+      <Filter>Misc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\PE.h">
+      <Filter>Misc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\SYSCall.h">
+      <Filter>Misc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Unique Vector.h">
+      <Filter>Misc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Utility.h">
+      <Filter>Misc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\VMT.h">
+      <Filter>Misc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\WinAPI.h">
+      <Filter>Misc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\x86.h">
+      <Filter>Misc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\XORString.h">
+      <Filter>Misc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h" />
+    <ClInclude Include="Misc\Pattern.h">
+      <Filter>Misc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Interfaces.h">
+      <Filter>Misc\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\SDK\SDK.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\JSON.h">
+      <Filter>Misc\Util\External</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc\Base64.h">
+      <Filter>Misc\Util\External</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

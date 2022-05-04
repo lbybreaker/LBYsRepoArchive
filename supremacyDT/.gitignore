@@ -1,0 +1,56 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+.vs/supremacy_csgo/project-colors.json
+.vs/supremacy_csgo/v17/.suo
+.vs/supremacy_csgo/v17/RC/Browse.VC.db
+.vs/supremacy_csgo/v17/RC/Browse.VC.db-shm
+.vs/supremacy_csgo/v17/RC/Browse.VC.db-wal
+.vs/supremacy_csgo/v17/RC/Browse.VC.opendb
+.vs/supremacy_csgo/v17/RC/ipch/AutoPCH/10ccf3e456d770ae/SHOTS.ipch
+.vs/supremacy_csgo/v17/RC/ipch/AutoPCH/1b184f230bdaf711/RESOLVER.ipch
+.vs/supremacy_csgo/v17/RC/ipch/AutoPCH/4444ceb134ee3982/VISUALS.ipch
+.vs/supremacy_csgo/v17/RC/ipch/AutoPCH/ae0ea44dd24ef927/CLIENTSTATE.ipch
+.vs/supremacy_csgo/v17/RC/ipch/AutoPCH/b94a58d4d516d12b/CSGO.ipch
+.vs/supremacy_csgo/v17/RC/ipch/AutoPCH/ee20b1310bae5306/EVENTS.ipch
+.vs/supremacy_csgo/v17/RC/ipch/AutoPCH/fb94457a3a8e4411/AIMBOT.ipch
+ReleaseEx/supremacy_csgo.dll.recipe
+ReleaseEx/supremacy_csgo.iobj
+ReleaseEx/supremacy_csgo.ipdb
+ReleaseEx/supremacy_csgo.log
+ReleaseEx/supremacy_csgo.tlog/CL.10072.write.1.tlog
+ReleaseEx/supremacy_csgo.tlog/CL.command.1.tlog
+ReleaseEx/supremacy_csgo.tlog/CL.read.1.tlog
+ReleaseEx/supremacy_csgo.tlog/link.command.1.tlog
+ReleaseEx/supremacy_csgo.tlog/link.read.1.tlog
+ReleaseEx/supremacy_csgo.tlog/link.write.1.tlog
+ReleaseEx/supremacy_csgo.tlog/supremacy_csgo.lastbuildstate

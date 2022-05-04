@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Setup">
+      <UniqueIdentifier>{bd76fced-a5bc-4cc6-b057-327e6b4dcbc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{d67d1530-05d7-4b97-bb1c-fa1f594c86f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\SDK">
+      <UniqueIdentifier>{bf1b4bff-103b-4d12-ab82-7e4ac360f106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Utilities">
+      <UniqueIdentifier>{3e91ef8b-7171-4a9b-aea9-d26df2be9edd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setup\Game">
+      <UniqueIdentifier>{d78fb9f5-0773-4898-999e-8413388e57dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setup\Hooks">
+      <UniqueIdentifier>{d993190b-1816-4508-bd08-e35e5b5b663f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Setup\Client">
+      <UniqueIdentifier>{61edd62a-3806-4473-a776-37b765a32f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{21274749-0d68-40f0-9c34-387741fda177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\SDK\Math">
+      <UniqueIdentifier>{d52f92b5-f789-4a1f-894e-aadc46f92014}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\SDK\Render">
+      <UniqueIdentifier>{d8c3d168-fa46-4f23-8faf-0a8f2cf81227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Visuals">
+      <UniqueIdentifier>{7ac83bfb-ee82-4f3a-a641-aaac4a1c5dcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Menu">
+      <UniqueIdentifier>{cb078732-9d6e-4804-b9a8-4235769d13f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Menu\Framework">
+      <UniqueIdentifier>{9f99bb42-f696-4c37-98a2-c0c5ef78f186}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="Client.h">
+      <Filter>Setup\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Setup\Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="CSGO.h">
+      <Filter>Setup\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="NT.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="PE.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyFormat.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Unique Vector.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="VMT.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="WinAPI.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="x86.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="XORString.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Address.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Hash.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="JSON.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Modules.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Misc\SDK\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Misc\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Notify.h">
+      <Filter>Features\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Angle.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityList.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseHandle.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Localize.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityOffsets.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Netvars.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientClass.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="DataMap.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientDLL.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="UTLVector.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="CVar.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="StudioHDR.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Misc\SDK\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineClient.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVars.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientMode.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Callbacks.h">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Checkbox.h">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Colorpicker.h">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Dropdown.h">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit.h">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Form.h">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Keybind.h">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiDropdown.h">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Tab.h">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Features\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Misc\SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entry.cpp">
+      <Filter>Setup</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Setup\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Setup\Hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="CSGO.cpp">
+      <Filter>Setup\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Misc\SDK\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Misc\SDK\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Callbacks.cpp">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Checkbox.cpp">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Colorpicker.cpp">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Dropdown.cpp">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit.cpp">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Form.cpp">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Keybind.cpp">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiDropdown.cpp">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>Features\Menu\Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
